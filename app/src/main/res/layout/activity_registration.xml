@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/searchgray"
+    tools:context=".RegistrationActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+        </LinearLayout>
+
+
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/SignUp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="150dp"
+                            android:text="Sign Up"
+                            android:textAlignment="center"
+                            android:textColor="@color/explorePurple"
+                            android:textSize="40sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:padding="32dp">
+
+                                <EditText
+                                    android:id="@+id/register_name"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp"
+                                    android:layout_marginTop="25dp"
+                                    android:background="@drawable/btn_category_bg"
+                                    android:ems="10"
+                                    android:hint="Enter Your Name"
+                                    android:inputType="textPersonName"
+                                    android:padding="12dp"
+                                    android:textColor="@color/black"
+                                    android:textSize="15sp" />
+
+                                <EditText
+                                    android:id="@+id/register_email"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp"
+                                    android:layout_marginTop="25dp"
+                                    android:background="@drawable/btn_category_bg"
+                                    android:ems="10"
+                                    android:hint="Enter Your Email"
+                                    android:inputType="textEmailAddress"
+                                    android:padding="12dp"
+                                    android:textColor="@color/black"
+                                    android:textSize="15sp" />
+
+                                <EditText
+                                    android:id="@+id/register_password"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp"
+                                    android:layout_marginTop="25dp"
+                                    android:background="@drawable/btn_category_bg"
+                                    android:ems="10"
+                                    android:hint="Enter Your Password"
+                                    android:inputType="textWebPassword"
+                                    android:padding="12dp"
+                                    android:textColor="@color/black"
+                                    android:textSize="15sp" />
+
+                                <EditText
+                                    android:id="@+id/register_password2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp"
+                                    android:layout_marginTop="25dp"
+                                    android:background="@drawable/btn_category_bg"
+                                    android:ems="10"
+                                    android:hint="Enter Your Password"
+                                    android:inputType="textWebPassword"
+                                    android:padding="12dp"
+                                    android:textColor="@color/black"
+                                    android:textSize="15sp" />
+
+
+                                <Button
+                                    android:id="@+id/register_button"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp"
+                                    android:layout_marginTop="25dp"
+                                    android:gravity="center"
+                                    android:text="Create Account"
+                                    android:textColor="@color/white"
+                                    android:backgroundTint="@color/explorePurple"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold" />
+
+                                <Button
+                                    android:id="@+id/backButton"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp"
+                                    android:layout_marginTop="25dp"
+                                    android:gravity="center"
+                                    android:text="Go Back"
+                                    android:textColor="@color/white"
+                                    android:backgroundTint="@color/explorePurple"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold" />
+
+                        </LinearLayout>
+                </LinearLayout>
+        </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
